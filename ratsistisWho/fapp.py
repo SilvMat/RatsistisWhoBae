@@ -51,4 +51,4 @@ def photo_cap():
 if __name__ == "__main__":
     p = subprocess.Popen(['python -m SimpleHTTPServer'], shell=True)
     print(" * Running on http://127.0.0.1:8000/")
-    app.run(host='localhost', port=8000)
+    fapp.run(host='localhost', port=8000)
